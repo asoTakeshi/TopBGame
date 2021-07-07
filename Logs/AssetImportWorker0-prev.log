@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.1f1 (6fdc41dfa55a) revision 7330881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ja' Physical Memory: 16238 MB
+OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'ja' Physical Memory: 16238 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/xyz11/TopBGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62484
+61466
 Successfully changed project path to: C:/Users/xyz11/TopBGame
 C:/Users/xyz11/TopBGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 85.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.1f1 (6fdc41dfa55a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,68 +35,2352 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001975 seconds.
+Registered in 0.001823 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 85.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.708 seconds
+- Completed reload, in  1.762 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003130 seconds.
+Registered in 0.003271 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 112.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  1.045 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.1 MB.
-System memory in use after: 132.1 MB.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 132.4 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3818.
-Total: 3.220500 ms (FindLiveObjects: 0.295200 ms CreateObjectMapping: 0.204200 ms MarkObjects: 2.590500 ms  DeleteObjects: 0.129600 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3828.
+Total: 5.767300 ms (FindLiveObjects: 0.521800 ms CreateObjectMapping: 0.427200 ms MarkObjects: 4.582500 ms  DeleteObjects: 0.234000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Image
-  artifactKey: Guid(eec035193eeeb954882c34111e0b5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Image using Guid(eec035193eeeb954882c34111e0b5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93467d58ed8f96faedcd0c6d505fd65a') in 0.012486 seconds 
+  path: Assets/Image/pipo-charachip008b.png
+  artifactKey: Guid(c46e739e0b9e18246aeda1651cfa9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip008b.png using Guid(c46e739e0b9e18246aeda1651cfa9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ebd0a08e14910bbd84bb214c9058e0') in 0.104898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.890548 seconds.
-  path: Assets/Scenes/BGM
-  artifactKey: Guid(6fbda45ec85296f48bf3dec7d0fa1c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BGM using Guid(6fbda45ec85296f48bf3dec7d0fa1c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085bda0572e5711aaee03a0499306e9e') in 0.007648 seconds 
+  Time since last request: 7.995470 seconds.
+  path: Assets/Image/pipo-charachip009a.png
+  artifactKey: Guid(a3310ee434dd66b44bc096479db6d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip009a.png using Guid(a3310ee434dd66b44bc096479db6d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9943891cfa9c28e370c75751a852a94b') in 0.018552 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.989021 seconds.
-  path: Assets/BGM/WorldMap.unity
-  artifactKey: Guid(961e7295bc3a63c459790f4622932d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BGM/WorldMap.unity using Guid(961e7295bc3a63c459790f4622932d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c01b21b11a74f4d0fc3da6c821c2f08') in 0.016958 seconds 
+  Time since last request: 8.796427 seconds.
+  path: Assets/Image/pipo-charachip010.png
+  artifactKey: Guid(47fcb6ee499d6114c883df633ab2e145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip010.png using Guid(47fcb6ee499d6114c883df633ab2e145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d2e820edb43b0c6c2039a2a7e403c5') in 0.019142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 129.940808 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cf40639611a8b7fb23135a0f20ae66') in 0.009996 seconds 
+  Time since last request: 4.609119 seconds.
+  path: Assets/Image/pipo-charachip010a.png
+  artifactKey: Guid(822df0789433bcc4ca8dbdfe0afb01fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip010a.png using Guid(822df0789433bcc4ca8dbdfe0afb01fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2a7b786b25c20c4b1312d075810942') in 0.020190 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.399512 seconds.
-  path: Assets/Scenes/Title.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c826e0ef2c4beced3c59572168d82afb') in 0.007302 seconds 
+  Time since last request: 9.753013 seconds.
+  path: Assets/Image/pipo-charachip007b.png
+  artifactKey: Guid(932992d7b958c774186f0dde4ba55486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip007b.png using Guid(932992d7b958c774186f0dde4ba55486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3968d5d4e0cac87a0055c22920282d32') in 0.019761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.401471 seconds.
+  path: Assets/Image/pipo-charachip005b.png
+  artifactKey: Guid(248a71a536794c5439cde60adf558ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip005b.png using Guid(248a71a536794c5439cde60adf558ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60df098a841346e9018524dc487b80c') in 0.019194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.708230 seconds.
+  path: Assets/Image/pipo-charachip006.png
+  artifactKey: Guid(c919d41c28a70744082f631059ca288d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip006.png using Guid(c919d41c28a70744082f631059ca288d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3b2829ec39ab2c1ac948296f90d845') in 0.020770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.972378 seconds.
+  path: Assets/Image/pipo-charachip012b.png
+  artifactKey: Guid(12465ced52d72724f9f38eccc7af50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip012b.png using Guid(12465ced52d72724f9f38eccc7af50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465592984756fd1e3e5d1fa00ca67f4') in 0.012991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008914 seconds.
+  path: Assets/Image/pipo-charachip013a.png
+  artifactKey: Guid(2c5b3469cba3d5345b94274821215ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip013a.png using Guid(2c5b3469cba3d5345b94274821215ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10392f6e83052255b212e72e336a3086') in 0.021143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Image/pipo-charachip014b.png
+  artifactKey: Guid(57f1eac88df3be94481117fefc658c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip014b.png using Guid(57f1eac88df3be94481117fefc658c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bfa787bd9ef8ad602f9c68e3af8bd1') in 0.013848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Image/pipo-charachip018d.png
+  artifactKey: Guid(11d243ac44aaa2240a977dc26ed61aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018d.png using Guid(11d243ac44aaa2240a977dc26ed61aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdb592c0adca6a3f03a88719fa33cd4') in 0.013222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Image/pipo-charachip016.png
+  artifactKey: Guid(e86fdf93104e17e4ab53071f55d8bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip016.png using Guid(e86fdf93104e17e4ab53071f55d8bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e90c0879bfa911e2b0a4e70f66fc109') in 0.012888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Image/pipo-charachip018b.png
+  artifactKey: Guid(0dc8c1806d4bc754e9ebe372afa5fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018b.png using Guid(0dc8c1806d4bc754e9ebe372afa5fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac9792c38bd7dee16567da14a67229') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.188603 seconds.
+  path: Assets/Image/pipo-charachip001.png
+  artifactKey: Guid(db5c8d04897b0ef4298176a1b0f04fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip001.png using Guid(db5c8d04897b0ef4298176a1b0f04fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ab9b1154cbc3a27c884691cbd2b2d') in 0.031049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Image/pipo-charachip001a.png
+  artifactKey: Guid(34c4b61e84685ac4a9c1a8cb48d6a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip001a.png using Guid(34c4b61e84685ac4a9c1a8cb48d6a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfdfa0e97518aa56b2b05419ae4a37d') in 0.020633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Image/pipo-charachip003b.png
+  artifactKey: Guid(f6007604d31c6624ca7545bbfe882662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip003b.png using Guid(f6007604d31c6624ca7545bbfe882662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcb104843c0157bb8a10ab5ced84f3e') in 0.018217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Image/pipo-charachip004a.png
+  artifactKey: Guid(401fa1007c0939549ba48f4de0e50821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip004a.png using Guid(401fa1007c0939549ba48f4de0e50821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e37bf2e1fdf1aed40fe103a2792303b') in 0.019174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Image/pipo-charachip002a.png
+  artifactKey: Guid(ad0779024e07b8745a2710a0b58efb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip002a.png using Guid(ad0779024e07b8745a2710a0b58efb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a80274d11a689de3fb0e891ed9a4ea') in 0.018271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Image/pipo-charachip003a.png
+  artifactKey: Guid(28cb36b56d898ee44a38a13462ce1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip003a.png using Guid(28cb36b56d898ee44a38a13462ce1596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cdd0000b37d39e911a9f63f5e4f084') in 0.029894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Image/pipo-charachip003.png
+  artifactKey: Guid(76e4800ea1ab20440a71f78d6392d102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip003.png using Guid(76e4800ea1ab20440a71f78d6392d102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50cb07574cfeb8a41ca70f2fa78642a') in 0.019988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Image/pipo-charachip004.png
+  artifactKey: Guid(6e4b7c8f3183ba44fb9834c9ce2f1c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip004.png using Guid(6e4b7c8f3183ba44fb9834c9ce2f1c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b87c3a6e2cd965aada7ff9d154683d2') in 0.024352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Image/pipo-charachip001b.png
+  artifactKey: Guid(cfb6554be63a58a4194167e7cb086876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip001b.png using Guid(cfb6554be63a58a4194167e7cb086876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3cb22fb490890941ddc89e29bc76aa') in 0.018302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Image/pipo-charachip002.png
+  artifactKey: Guid(069ffd5b2d39301489fba14d2e0a1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip002.png using Guid(069ffd5b2d39301489fba14d2e0a1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad980ec8dac0952e4ac6ef457f5f2dfd') in 0.028867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Image/pipo-charachip002b.png
+  artifactKey: Guid(a44ca96d9e50284419b2d55a0ef715cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip002b.png using Guid(a44ca96d9e50284419b2d55a0ef715cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cdc0790b6266d7ac46c1a9e52e6eaa') in 0.022038 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005212 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4210.
+Total: 3.170500 ms (FindLiveObjects: 0.234000 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.705500 ms  DeleteObjects: 0.119200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.968625 seconds.
+  path: Assets/JMO Assets/Cartoon FX
+  artifactKey: Guid(c865e48369a325f4784ecd8444d1ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX using Guid(c865e48369a325f4784ecd8444d1ec51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0a51a2ff412812ce9a95ac4bca2d0c') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 445.160633 seconds.
+  path: Assets/Image/pipo-charachip004b.png
+  artifactKey: Guid(ee8bcacb27b9a55448f9e9466941f4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip004b.png using Guid(ee8bcacb27b9a55448f9e9466941f4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6cb36dc2c8e5982ca5b788ed501d1') in 0.058372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Image/pipo-charachip005a.png
+  artifactKey: Guid(3221290cfb151a74087cc3e0e314afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip005a.png using Guid(3221290cfb151a74087cc3e0e314afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9b90f196a023f157a63cc2c2521c77') in 0.024627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Image/pipo-charachip005.png
+  artifactKey: Guid(ae34c96565d10f84e8dfb45a51d11c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip005.png using Guid(ae34c96565d10f84e8dfb45a51d11c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d169ec06ba8047531ff76ea49586f6') in 0.020169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109251 seconds.
+  path: Assets/Image/pipo-charachip005b.png
+  artifactKey: Guid(248a71a536794c5439cde60adf558ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip005b.png using Guid(248a71a536794c5439cde60adf558ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a414a6271bc5c02cf77cdf1ba39d366') in 0.018236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Image/pipo-charachip006a.png
+  artifactKey: Guid(b476d497490f10645a15e7b6b6239b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip006a.png using Guid(b476d497490f10645a15e7b6b6239b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff852fcb16c7a6a94d1ae2cc88ea7d75') in 0.021236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Image/pipo-charachip007.png
+  artifactKey: Guid(1ce2c6aa7e8016141b7f13131cc99190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip007.png using Guid(1ce2c6aa7e8016141b7f13131cc99190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179cb5ed1c7b20b34f34a11775c4b67a') in 0.017351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Image/pipo-charachip006b.png
+  artifactKey: Guid(55811ffba8836c3498165dbf5e8e395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip006b.png using Guid(55811ffba8836c3498165dbf5e8e395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5583e068f200eb5c5687016cd6a1150') in 0.023980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Image/pipo-charachip007b.png
+  artifactKey: Guid(932992d7b958c774186f0dde4ba55486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip007b.png using Guid(932992d7b958c774186f0dde4ba55486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd0b6b68e40da9fc196d0df925c9ffc') in 0.017240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Image/pipo-charachip008.png
+  artifactKey: Guid(9990233e61e7cb64a89f4a89a7df4f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip008.png using Guid(9990233e61e7cb64a89f4a89a7df4f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a8b6e5e55f1dc5e093932635dc4aca') in 0.018392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Image/pipo-charachip007a.png
+  artifactKey: Guid(c7f7df0607473f2469d3971d3263e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip007a.png using Guid(c7f7df0607473f2469d3971d3263e6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6496b84fbe7ef6a5f7673b2738d41e8e') in 0.018114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Image/pipo-charachip006.png
+  artifactKey: Guid(c919d41c28a70744082f631059ca288d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip006.png using Guid(c919d41c28a70744082f631059ca288d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4bbac73d20d785c33176cfa587bca2') in 0.020141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Image/pipo-charachip008a.png
+  artifactKey: Guid(f28d403b74512c248858668cee40e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip008a.png using Guid(f28d403b74512c248858668cee40e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9537a569c563942301c8f4601e4e40b0') in 0.019047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066965 seconds.
+  path: Assets/Image/pipo-charachip008b.png
+  artifactKey: Guid(c46e739e0b9e18246aeda1651cfa9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip008b.png using Guid(c46e739e0b9e18246aeda1651cfa9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd055251de2443d898385319484c5b6c4') in 0.022991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Image/pipo-charachip009a.png
+  artifactKey: Guid(a3310ee434dd66b44bc096479db6d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip009a.png using Guid(a3310ee434dd66b44bc096479db6d4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4eea1e284ceacf9fd589193dc5f2d4') in 0.016935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Image/pipo-charachip011a.png
+  artifactKey: Guid(1331f1b1f8e2c154098b7e256445a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip011a.png using Guid(1331f1b1f8e2c154098b7e256445a480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792440451f155ff200c6cab75b842a2a') in 0.022052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Image/pipo-charachip010b.png
+  artifactKey: Guid(b3e4898333f557a44a3318f3bcc9d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip010b.png using Guid(b3e4898333f557a44a3318f3bcc9d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df4e101444ff1b0b621a3c2de78368b') in 0.019409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Image/pipo-charachip009.png
+  artifactKey: Guid(e5fe552929a5cd8489c1b02c875384e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip009.png using Guid(e5fe552929a5cd8489c1b02c875384e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c0de2bd6bf24fcf1ff238c7dbdf501') in 0.017159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Image/pipo-charachip010a.png
+  artifactKey: Guid(822df0789433bcc4ca8dbdfe0afb01fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip010a.png using Guid(822df0789433bcc4ca8dbdfe0afb01fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61173dd96a47086ebe42c557b9fef0e') in 0.017852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Image/pipo-charachip011.png
+  artifactKey: Guid(053e8268d8cd46d4cb4877256a3c2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip011.png using Guid(053e8268d8cd46d4cb4877256a3c2d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e65342019411f4b1643dcd4ed406d0d') in 0.015237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Image/pipo-charachip010.png
+  artifactKey: Guid(47fcb6ee499d6114c883df633ab2e145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip010.png using Guid(47fcb6ee499d6114c883df633ab2e145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd714097d961b9712e848abef3529badf') in 0.014736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Image/pipo-charachip009b.png
+  artifactKey: Guid(039591572b57c4c47922532182f7d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip009b.png using Guid(039591572b57c4c47922532182f7d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a0ff7151466e09cc3f1d2350a419fe') in 0.022476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041780 seconds.
+  path: Assets/Image/pipo-charachip011b.png
+  artifactKey: Guid(4f1fa193bec40784a8a0e856a75a512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip011b.png using Guid(4f1fa193bec40784a8a0e856a75a512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417e3da633c82495ea3115e36c0a28e2') in 0.015119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Image/pipo-charachip012b.png
+  artifactKey: Guid(12465ced52d72724f9f38eccc7af50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip012b.png using Guid(12465ced52d72724f9f38eccc7af50af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2299ef6fe0c21d2d5aae99997c90638a') in 0.016071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Image/pipo-charachip013a.png
+  artifactKey: Guid(2c5b3469cba3d5345b94274821215ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip013a.png using Guid(2c5b3469cba3d5345b94274821215ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed737fb4746d0e21c82f176dc15d39e9') in 0.016334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Image/pipo-charachip015.png
+  artifactKey: Guid(b51a4278c096b8345a011cf0e16ec438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip015.png using Guid(b51a4278c096b8345a011cf0e16ec438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfa1b4536d9055e6a9769a45c2e073b') in 0.019397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Image/pipo-charachip014.png
+  artifactKey: Guid(7bccceb31810e8c46a0173f65896a1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip014.png using Guid(7bccceb31810e8c46a0173f65896a1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4497a17ce32baeaf928762f8e68ba319') in 0.018393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Image/pipo-charachip014b.png
+  artifactKey: Guid(57f1eac88df3be94481117fefc658c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip014b.png using Guid(57f1eac88df3be94481117fefc658c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8e6e81eeabddd5079c24aec5c30926') in 0.019986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Image/pipo-charachip014a.png
+  artifactKey: Guid(3befc3edbb7effe4a9f815d04f2bddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip014a.png using Guid(3befc3edbb7effe4a9f815d04f2bddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afddf20887b0f5b1b21339a7ca0cd7b') in 0.020148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Image/pipo-charachip015a.png
+  artifactKey: Guid(38f24853a074c584eb345cac7196c02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip015a.png using Guid(38f24853a074c584eb345cac7196c02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61da376ce85859d0fb5255c00e6c6184') in 0.017829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Image/pipo-charachip012a.png
+  artifactKey: Guid(8539890c03763fa4bbc567406e7de987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip012a.png using Guid(8539890c03763fa4bbc567406e7de987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1ea88f407f1f6f22e113e380030c0e') in 0.018471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Image/pipo-charachip013.png
+  artifactKey: Guid(056560c1a41370f41a2dbe7eb87cf297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip013.png using Guid(056560c1a41370f41a2dbe7eb87cf297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd6325d97557cccee08b652aae8c7ae') in 0.018896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Image/pipo-charachip012.png
+  artifactKey: Guid(50b9ca15738609943abf2c2007c4d4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip012.png using Guid(50b9ca15738609943abf2c2007c4d4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a125303dc912c4f1883aac1db7603ec7') in 0.019869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Image/pipo-charachip013b.png
+  artifactKey: Guid(1ed84ed112b8b9a4a9e9f95b12c01e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip013b.png using Guid(1ed84ed112b8b9a4a9e9f95b12c01e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668ffe6d6b65218d8213499ca26c016f') in 0.019963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Image/pipo-charachip016b.png
+  artifactKey: Guid(176a9b59a3bce8640855cfea9191a2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip016b.png using Guid(176a9b59a3bce8640855cfea9191a2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b564f35180085abd513cfcbfd29722b3') in 0.017963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Image/pipo-charachip017a.png
+  artifactKey: Guid(3281ca35304bff045b713a6c8e56f52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip017a.png using Guid(3281ca35304bff045b713a6c8e56f52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea4186eea04b21b108a3a242bfbc2a2') in 0.018301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Image/pipo-charachip015b.png
+  artifactKey: Guid(bb640f6947b2ca5469fcc51f8f158ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip015b.png using Guid(bb640f6947b2ca5469fcc51f8f158ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035e301d598c45fd301bc2f62b3f1f10') in 0.024937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Image/pipo-charachip017c.png
+  artifactKey: Guid(a5762f6726deaa142a8e8c71114c3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip017c.png using Guid(a5762f6726deaa142a8e8c71114c3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145f23bd1e8efcb480598eb8e4051880') in 0.019840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Image/pipo-charachip018.png
+  artifactKey: Guid(d121237d5d6517a4f8e7e7c8927a081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018.png using Guid(d121237d5d6517a4f8e7e7c8927a081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2943ba665acceb76304cb9cc7893720') in 0.021449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Image/pipo-charachip017b.png
+  artifactKey: Guid(da1c077ac6ba6104ab856cc472b58af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip017b.png using Guid(da1c077ac6ba6104ab856cc472b58af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1067ed0f68174c5f994d677646fffc') in 0.019845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Image/pipo-charachip017.png
+  artifactKey: Guid(769f067c64393dd43a7aa5d06a1fb1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip017.png using Guid(769f067c64393dd43a7aa5d06a1fb1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34060aac637bf32aca045ef9c94ec6f') in 0.019142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Image/pipo-charachip016.png
+  artifactKey: Guid(e86fdf93104e17e4ab53071f55d8bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip016.png using Guid(e86fdf93104e17e4ab53071f55d8bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f45f63b69b5889030cdd44ad82b9190') in 0.018228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Image/pipo-charachip018c.png
+  artifactKey: Guid(0747f3b32dedf804884b83de0e08b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018c.png using Guid(0747f3b32dedf804884b83de0e08b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c619ebbb62c3649b783c8d38b3c8be') in 0.022124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Image/pipo-charachip018a.png
+  artifactKey: Guid(4d11afcf97ec87f4e83b7a8c79af1ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018a.png using Guid(4d11afcf97ec87f4e83b7a8c79af1ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b999f1ca1e635420d6c7225847b4162') in 0.019595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Image/pipo-charachip018e.png
+  artifactKey: Guid(c61c036e0f49cf54baaa7caad066b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018e.png using Guid(c61c036e0f49cf54baaa7caad066b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dea627e4ce4b7e4d363d6ce3227e83') in 0.020231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Image/pipo-charachip019a.png
+  artifactKey: Guid(4f99477336f82c542b3925946e15f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip019a.png using Guid(4f99477336f82c542b3925946e15f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42737c8a18d68021bfd2565f002e3676') in 0.022683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Image/pipo-charachip021c.png
+  artifactKey: Guid(41d21e5ec0eb230499b037d6a59ec6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip021c.png using Guid(41d21e5ec0eb230499b037d6a59ec6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e053d74492dd18a5a3f510e5ea572e') in 0.016824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Image/pipo-charachip020.png
+  artifactKey: Guid(3952d8bf7f614714cabc40119bb5683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip020.png using Guid(3952d8bf7f614714cabc40119bb5683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667a8d1fa050c8e6aa04a21c87a0a495') in 0.022052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Image/pipo-charachip021.png
+  artifactKey: Guid(7086f1d088edf2a45b023e68c0728c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip021.png using Guid(7086f1d088edf2a45b023e68c0728c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e484391d9cf64b533772b9ecd99fcc76') in 0.017308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Image/pipo-charachip019b.png
+  artifactKey: Guid(91d39cacb5a70554da41f09825fbc925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip019b.png using Guid(91d39cacb5a70554da41f09825fbc925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922d203d891024f3bba64e9430131301') in 0.020461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Image/pipo-charachip019c.png
+  artifactKey: Guid(5c70bf9a3e2a89e47908bc3f729e97d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip019c.png using Guid(5c70bf9a3e2a89e47908bc3f729e97d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdbd5460d0945d1404a13ce80466bfb') in 0.018908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Image/pipo-charachip018g.png
+  artifactKey: Guid(18be27882948de442b506f37f9b2409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018g.png using Guid(18be27882948de442b506f37f9b2409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c98f0da3c55236fd21e5304a173f74') in 0.017386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Image/pipo-charachip019.png
+  artifactKey: Guid(e8a15f7ebc26a7541b6a422d50092b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip019.png using Guid(e8a15f7ebc26a7541b6a422d50092b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e09773c79cd6ec89c69432a5a1a696b') in 0.018076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Image/pipo-charachip018d.png
+  artifactKey: Guid(11d243ac44aaa2240a977dc26ed61aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018d.png using Guid(11d243ac44aaa2240a977dc26ed61aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e5666e180ef9ecbcc5c48cb8548528') in 0.019223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Image/pipo-charachip019e.png
+  artifactKey: Guid(ca5e980cf2f114f4582757e8e103dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip019e.png using Guid(ca5e980cf2f114f4582757e8e103dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f098a9efea3755920a144e85f478ce') in 0.017529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Image/pipo-charachip021d.png
+  artifactKey: Guid(dd7dd3de6fd0a0b4598ae236adf2d48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip021d.png using Guid(dd7dd3de6fd0a0b4598ae236adf2d48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f61a8bc089e0293e296c21258624438') in 0.018308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Image/pipo-charachip022e.png
+  artifactKey: Guid(ff933b579ea78c148a48480895e2d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip022e.png using Guid(ff933b579ea78c148a48480895e2d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f90f699183d6417872bbe7ea9636d8') in 0.017663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Image/pipo-charachip022.png
+  artifactKey: Guid(6475fde8e5a5b6f4f84cf126e65b43e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip022.png using Guid(6475fde8e5a5b6f4f84cf126e65b43e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4991559d070be3b2856d548dbf80c5cf') in 0.015945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Image/pipo-charachip023.png
+  artifactKey: Guid(b51d0cd374fc2e542a4989dd341690ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip023.png using Guid(b51d0cd374fc2e542a4989dd341690ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb18214516dcfad26376f29bd8346c4') in 0.019516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Image/pipo-charachip022b.png
+  artifactKey: Guid(a795f2f6b66871a4ab11525cb0b0bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip022b.png using Guid(a795f2f6b66871a4ab11525cb0b0bbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e0dd1f23bdf6e20bba8ab473a197e8') in 0.018427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Image/pipo-charachip022a.png
+  artifactKey: Guid(84b2c784fc43d7a44876084567e63053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip022a.png using Guid(84b2c784fc43d7a44876084567e63053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b57becaa1bbc57e084a875d33e4aacc') in 0.018238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Image/pipo-charachip023a.png
+  artifactKey: Guid(c4bd8a6b3d89c7e43ac2de90a90431d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip023a.png using Guid(c4bd8a6b3d89c7e43ac2de90a90431d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5968092fdd501131599970a11e617b0') in 0.016925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Image/pipo-charachip023b.png
+  artifactKey: Guid(0f61472b5e5152741a1bd682465937bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip023b.png using Guid(0f61472b5e5152741a1bd682465937bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb54939c41f442bf77285f987fc473d') in 0.019925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Image/pipo-charachip022d.png
+  artifactKey: Guid(7f2dcd905f374564f9204b8b248eff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip022d.png using Guid(7f2dcd905f374564f9204b8b248eff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c96aee643888d6a62fc4da8daa5c9c') in 0.019529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Image/pipo-charachip021e.png
+  artifactKey: Guid(fa29afad136498445b806ef4df64ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip021e.png using Guid(fa29afad136498445b806ef4df64ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d775d376595e79d22e32e08ae7aaaee') in 0.020111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Image/pipo-charachip024.png
+  artifactKey: Guid(b5821d5f9e04c64419bd568b16e21caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip024.png using Guid(b5821d5f9e04c64419bd568b16e21caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cd6875c422fb54f5d71b61e9434682') in 0.019842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Image/pipo-charachip024d.png
+  artifactKey: Guid(50064bc0ed8be324cbad17e8a4462a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip024d.png using Guid(50064bc0ed8be324cbad17e8a4462a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e5c72f891fa3366814e05a61bf0ce5') in 0.022680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Image/pipo-charachip025b.png
+  artifactKey: Guid(9b4777f838d9c18498ea49e54dccf694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip025b.png using Guid(9b4777f838d9c18498ea49e54dccf694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b9a06022c1096490b7d7cddeb451fd') in 0.019146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Image/pipo-charachip025.png
+  artifactKey: Guid(5db7af86ab3ef014384058368cb61284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip025.png using Guid(5db7af86ab3ef014384058368cb61284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23030fb8714e3471a013538a9b70fb2') in 0.020078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Image/pipo-charachip025a.png
+  artifactKey: Guid(86fe9a20fda64494088b9dcafa852216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip025a.png using Guid(86fe9a20fda64494088b9dcafa852216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a036f2dd25c8d2bb2d9da9274e11f465') in 0.019546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Image/pipo-charachip023d.png
+  artifactKey: Guid(b788ea3ed3058ea4b8f062f8ef192d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip023d.png using Guid(b788ea3ed3058ea4b8f062f8ef192d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17c46c6e77fada60955a1f3f7aa94b4') in 0.019847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Image/pipo-charachip024a.png
+  artifactKey: Guid(ce73fda6ab7c0e44385ed65b877773e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip024a.png using Guid(ce73fda6ab7c0e44385ed65b877773e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812b7ad8f2f9d6d85083161f7e1eed3b') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Image/pipo-charachip025c.png
+  artifactKey: Guid(314b744b355adc646821b143b617a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip025c.png using Guid(314b744b355adc646821b143b617a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ac184bc64e9e90d58e9a6f3ec6d878') in 0.019099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Image/pipo-charachip024b.png
+  artifactKey: Guid(a46cd53482ebe3a4fa7b2fed5184af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip024b.png using Guid(a46cd53482ebe3a4fa7b2fed5184af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9671dee0fd40e3cf851dfb777d98b5a') in 0.018846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Image/pipo-charachip024c.png
+  artifactKey: Guid(802df4168b4908b4c83023687749cc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip024c.png using Guid(802df4168b4908b4c83023687749cc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4c69022bd8fc33379fba18b2bfa1b8') in 0.024704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Image/pipo-charachip025d.png
+  artifactKey: Guid(225a50f7f5da4e14aa73f855a151130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip025d.png using Guid(225a50f7f5da4e14aa73f855a151130c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eda734c80785c27454af35e4deefc0') in 0.017447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Image/pipo-charachip026b.png
+  artifactKey: Guid(29623c8f57a35a64fa35cbb7f3fe74cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip026b.png using Guid(29623c8f57a35a64fa35cbb7f3fe74cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d947cad9ad459b3b76c37d7a8b91c6') in 0.021435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Image/pipo-charachip027c.png
+  artifactKey: Guid(1528c0fc1b687f647b5c2474f92e2030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip027c.png using Guid(1528c0fc1b687f647b5c2474f92e2030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e81a1fdef401bca843d85a1aebc4e5c') in 0.017850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Image/pipo-charachip027.png
+  artifactKey: Guid(961fcc6315f89df458eba479badff8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip027.png using Guid(961fcc6315f89df458eba479badff8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7be28dedb3a61ec2f6f36de14f6cbe8') in 0.015100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Image/pipo-charachip027a.png
+  artifactKey: Guid(221d4a0a5c9e20a429caf8eae55b8261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip027a.png using Guid(221d4a0a5c9e20a429caf8eae55b8261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028da66b69fca3bee6ec7c1bfa92fa1b') in 0.020523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Image/pipo-charachip027e.png
+  artifactKey: Guid(fcc4972570e2a2b4294c85d0b08781ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip027e.png using Guid(fcc4972570e2a2b4294c85d0b08781ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a715196788d69f18af83e4a55c894c') in 0.019996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Image/pipo-charachip028.png
+  artifactKey: Guid(2ea3e1d15b3b9eb438aade6a159ca17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip028.png using Guid(2ea3e1d15b3b9eb438aade6a159ca17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a03a4c92a94c1952807e72d3fddf05') in 0.018798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Image/pipo-charachip026c.png
+  artifactKey: Guid(fe088458faa9d10469ccb73736399382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip026c.png using Guid(fe088458faa9d10469ccb73736399382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aedaa1b29cd335f5c403284c3e5f65c') in 0.019411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Image/pipo-charachip026d.png
+  artifactKey: Guid(dff960fccf12bf948b2c38c7b5f9c5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip026d.png using Guid(dff960fccf12bf948b2c38c7b5f9c5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac646dd881e62f6c96ca6cc05edefff') in 0.018379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Image/pipo-charachip026e.png
+  artifactKey: Guid(3adac4c34d0bc294995617e5fb95116f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip026e.png using Guid(3adac4c34d0bc294995617e5fb95116f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e835af78095172d9252ec2a105042ab') in 0.017438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Image/pipo-charachip027d.png
+  artifactKey: Guid(1cc5fa5359032504fa3fc5f1514e60f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip027d.png using Guid(1cc5fa5359032504fa3fc5f1514e60f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc7745d1d6ac4fe7461ed3a0b01e0e9') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Image/pipo-charachip028d.png
+  artifactKey: Guid(b4f5df6b2641d724999fc78d50022d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip028d.png using Guid(b4f5df6b2641d724999fc78d50022d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73dd899e7220f77c1101c8368f837f9') in 0.017413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Image/pipo-charachip027b.png
+  artifactKey: Guid(697d74c63249a6d4aab5adafd7a1586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip027b.png using Guid(697d74c63249a6d4aab5adafd7a1586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9e9450edc9d4a4f64d12be0e16b073') in 0.018328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Image/pipo-charachip028a.png
+  artifactKey: Guid(9c51563ff485e9848b2e12fd7c0b47ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip028a.png using Guid(9c51563ff485e9848b2e12fd7c0b47ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e335ce71ce0d54449cb554c1fa39a942') in 0.019422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Image/pipo-charachip029e.png
+  artifactKey: Guid(1445e78ebf9db234c8b9819a6bef4773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip029e.png using Guid(1445e78ebf9db234c8b9819a6bef4773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24d804371003380ba6707d39c841dc4') in 0.017987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Image/pipo-charachip029b.png
+  artifactKey: Guid(83e886147ec9bd647bb8e981cbdb8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip029b.png using Guid(83e886147ec9bd647bb8e981cbdb8dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9281aaa4086156a055641f89ea0f2181') in 0.017048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Image/pipo-charachip028e.png
+  artifactKey: Guid(57093a2b5e49e7f45bb3949edb5a77d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip028e.png using Guid(57093a2b5e49e7f45bb3949edb5a77d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc6db2d52c0b67ef524ddf77b5477fe') in 0.018622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Image/pipo-charachip024e.png
+  artifactKey: Guid(15f9e7fa14d14cc4e9454689307f8a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip024e.png using Guid(15f9e7fa14d14cc4e9454689307f8a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8e25e54484e632e0da66f4c013cb82') in 0.020813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Image/pipo-charachip022c.png
+  artifactKey: Guid(a0bf203beac6cd64db27e238beb0aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip022c.png using Guid(a0bf203beac6cd64db27e238beb0aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e293d1f9efd72cee8be7885ac160507') in 0.020514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Image/pipo-charachip026.png
+  artifactKey: Guid(fc7921b032188ed48bc5fa74a65e618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip026.png using Guid(fc7921b032188ed48bc5fa74a65e618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73295a763de3a3e07ef3847fb4c8b5b1') in 0.018584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Image/pipo-charachip030a.png
+  artifactKey: Guid(e14cd1bcd1d7329448111746f220652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip030a.png using Guid(e14cd1bcd1d7329448111746f220652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365cd19f63c57a3772e5073db1f999a9') in 0.017697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Image/pipo-charachip030d.png
+  artifactKey: Guid(674977a081974e743a38b4c6412abffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip030d.png using Guid(674977a081974e743a38b4c6412abffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0176cb705fbfcf9f7826f0a14a22b34') in 0.020444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Image/pipo-charachip026a.png
+  artifactKey: Guid(50dc834a0b7b2d142bbb9fd4fd1a9c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip026a.png using Guid(50dc834a0b7b2d142bbb9fd4fd1a9c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed3000d72f7f3e3d465d91dcb14e6c7') in 0.022429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Image/pipo-charachip018f.png
+  artifactKey: Guid(b08d110999b36ec4797a217a3107dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018f.png using Guid(b08d110999b36ec4797a217a3107dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f69e2cb3f4fff83b65f25dddc45d81') in 0.027444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Image/pipo-charachip021a.png
+  artifactKey: Guid(b615d8cb403369147b03b25f7aa1593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip021a.png using Guid(b615d8cb403369147b03b25f7aa1593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3031a1773d57701e7799b9b7e9a82a7') in 0.027097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Image/pipo-charachip025e.png
+  artifactKey: Guid(96e138a966414444f9bd7ceee906fc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip025e.png using Guid(96e138a966414444f9bd7ceee906fc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36881d1944a836dc3f51f827aab7d8a4') in 0.033784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Image/pipo-charachip018b.png
+  artifactKey: Guid(0dc8c1806d4bc754e9ebe372afa5fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip018b.png using Guid(0dc8c1806d4bc754e9ebe372afa5fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83716eded9bd08725c6e481bc953373f') in 0.030970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Image/pipo-charachip019d.png
+  artifactKey: Guid(449e3422c8678804f92fa47c78bb7671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip019d.png using Guid(449e3422c8678804f92fa47c78bb7671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5e040d2c24d8ba2bedf0a518540180') in 0.026886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Image/pipo-charachip029a.png
+  artifactKey: Guid(79096da3961d47448b1aae2ecb418449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip029a.png using Guid(79096da3961d47448b1aae2ecb418449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce81cd4c642aa4c9801cea3e6d835ea') in 0.029857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Image/pipo-charachip029d.png
+  artifactKey: Guid(9cd90d686eb8e57458d7c0fe9570f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip029d.png using Guid(9cd90d686eb8e57458d7c0fe9570f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b517858edd7f27b1475711a7aec95ab') in 0.029093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Image/pipo-charachip030c.png
+  artifactKey: Guid(38059470166a9094eac5bb81912abce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip030c.png using Guid(38059470166a9094eac5bb81912abce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd7c165cbc9ab6d80ef8142a7bedc7e') in 0.029260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Image/pipo-charachip030b.png
+  artifactKey: Guid(61e6817410b8f07479c00dd58633cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip030b.png using Guid(61e6817410b8f07479c00dd58633cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15fc72b7d3b262f01bb506b8b5f6dcd') in 0.025533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Image/pipo-charachip029.png
+  artifactKey: Guid(c385e7af907fc794fbc7e9335f851cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip029.png using Guid(c385e7af907fc794fbc7e9335f851cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15362960d379b4519301ea6dae03fdc') in 0.015470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Image/pipo-charachip030.png
+  artifactKey: Guid(f1bb64645db0bc848a8a4171458f1125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip030.png using Guid(f1bb64645db0bc848a8a4171458f1125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6613610ec6bbc0df100980d023048ba') in 0.013751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Image/pipo-charachip023c.png
+  artifactKey: Guid(a72a7ea013417c148816e3cef3066dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip023c.png using Guid(a72a7ea013417c148816e3cef3066dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdfc5837a252d4af99d09125e81d6be') in 0.020027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Image/pipo-charachip028c.png
+  artifactKey: Guid(c72c0e63831e81b4881a58753e1fdc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip028c.png using Guid(c72c0e63831e81b4881a58753e1fdc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151aeb1362e9300322344c820607395a') in 0.019391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Image/pipo-charachip023e.png
+  artifactKey: Guid(c0bf6d1c17ad7944588f1792f29e3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip023e.png using Guid(c0bf6d1c17ad7944588f1792f29e3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c3fbc9a64948df10a67272f3f6718') in 0.019185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Image/pipo-charachip029c.png
+  artifactKey: Guid(eeb23314c2f672a43b53691a9545a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip029c.png using Guid(eeb23314c2f672a43b53691a9545a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d8b75da7d01ef7df80d6cd9ba7922a') in 0.019288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Image/pipo-charachip021b.png
+  artifactKey: Guid(9f8c39184f03a424cbdf3888c36a00a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip021b.png using Guid(9f8c39184f03a424cbdf3888c36a00a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773a30c74c50de89bc38351760dbc2df') in 0.018735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Image/pipo-charachip028b.png
+  artifactKey: Guid(9aed2d1b48da8924b827c5b32d9e8007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip028b.png using Guid(9aed2d1b48da8924b827c5b32d9e8007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b2a8ccc63a55b05ac1e4dd684f4a1e') in 0.018821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Image/pipo-charachip016a.png
+  artifactKey: Guid(961241d02e69bc84580e4d33e7d6f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-charachip016a.png using Guid(961241d02e69bc84580e4d33e7d6f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb6dbdce1cd08f215f57b7d4bf50495') in 0.018287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 454.295294 seconds.
+  path: Assets/Image/pipo-map001.zip
+  artifactKey: Guid(ab732343944e6ae4b805357931b1d064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/pipo-map001.zip using Guid(ab732343944e6ae4b805357931b1d064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ee8499fa64f784fa4e1fafbd97d7a2') in 0.012493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.626587 seconds.
+  path: Assets/Image/ウディタ2_32x32mapchip_20210215 (1).zip
+  artifactKey: Guid(4878dc97c844fee4d8545297d00b9cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/ウディタ2_32x32mapchip_20210215 (1).zip using Guid(4878dc97c844fee4d8545297d00b9cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591ad13d6469641c47b4c84f08406821') in 0.007999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.363816 seconds.
+  path: Assets/Image/MapCip
+  artifactKey: Guid(4c732f8563113a644bb69992e34b9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/MapCip using Guid(4c732f8563113a644bb69992e34b9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f97c319a037f566d19b3c6af30f4be') in 0.007816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.725328 seconds.
+  path: Assets/MapCip/NewBehaviourScript.cs
+  artifactKey: Guid(14a3bafa06e52b64c987e0e072569b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapCip/NewBehaviourScript.cs using Guid(14a3bafa06e52b64c987e0e072569b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9136226ccb54638bea31fc1c8df148') in 0.007936 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.0 MB.
+System memory in use after: 199.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5927.
+Total: 3.316200 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.695200 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.792942 seconds.
+  path: Assets/Image/Enemy
+  artifactKey: Guid(6234e61945dff1540901f51c9f88a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Enemy using Guid(6234e61945dff1540901f51c9f88a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51accefd0e434dae6af05b17aa71d92a') in 0.009928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.732690 seconds.
+  path: Assets/Enemy/pipo-boss001.png
+  artifactKey: Guid(c41b3ef12e305154da8b9d06319f3dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/pipo-boss001.png using Guid(c41b3ef12e305154da8b9d06319f3dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
+UnityEditor.TextureInspector:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
+UnityEditor.TextureInspector:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+ -> (artifact id: '2c9ac8ec20ad36d5b8a2e346ab796316') in 0.057798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.086970 seconds.
+  path: Assets/Enemy/pipo-boss001.png
+  artifactKey: Guid(c41b3ef12e305154da8b9d06319f3dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/pipo-boss001.png using Guid(c41b3ef12e305154da8b9d06319f3dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
+UnityEditor.TextureInspector:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Texture3DPreview> ()
+UnityEditor.TextureInspector:OnEnable ()
+UnityEditor.Editor:CreateEditorWithContext (UnityEngine.Object[],UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object,System.Type)
+UnityEditor.Editor:CreateEditor (UnityEngine.Object)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+ -> (artifact id: '2adbdadd5d49d05d470e3fda035f73d6') in 0.019356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.611843 seconds.
+  path: Assets/Enemy/Materials
+  artifactKey: Guid(cf74e40b1a7bd4448a52578440095fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Materials using Guid(cf74e40b1a7bd4448a52578440095fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9de34a00429b952d1ad0d6c5256987b') in 0.010147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.553631 seconds.
+  path: Assets/Enemy/Materials/pipo-boss001.mat
+  artifactKey: Guid(3f4b01cb27721da47b91cd63c726bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Materials/pipo-boss001.mat using Guid(3f4b01cb27721da47b91cd63c726bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.MaterialEditor:GetPreviewRendererUtility ()
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.MaterialEditor:GetPreviewRendererUtility ()
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+ -> (artifact id: '999959be4e634f0db9a0ce8aeeaec522') in 0.042733 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
