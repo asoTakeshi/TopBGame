@@ -21,9 +21,20 @@ public class ItemData : MonoBehaviour
 
     }
 
-    
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            if (type == ItemType.Key)
+            {
+                //ÉJÉM
+                ItemKeeper.hasKeys += 1;
+            }
+        }
     }
 }

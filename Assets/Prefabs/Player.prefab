@@ -200,9 +200,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5357595904654196195}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b9e85ff77b464e4a9ea02599d4dccdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swordPrefab: {fileID: 2306317159041624849, guid: 123a4f426c8106a4ebad6b3395ffdebe, type: 3}
+  swordPrefab: {fileID: 3927713237620023120, guid: 123a4f426c8106a4ebad6b3395ffdebe, type: 3}
