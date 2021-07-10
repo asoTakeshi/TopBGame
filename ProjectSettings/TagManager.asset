@@ -10,6 +10,7 @@ TagManager:
   - Item
   - Sword
   - ItemBox
+  - Enemy
   layers:
   - Default
   - TransparentFX
