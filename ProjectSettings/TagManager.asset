@@ -9,6 +9,7 @@ TagManager:
   - Door
   - Item
   - Sword
+  - ItemBox
   layers:
   - Default
   - TransparentFX
